@@ -1,0 +1,223 @@
+
+------------------------------------------------------------------------------------------------------------------
+			PROYECTO
+------------------------------------------------------------------------------------------------------------------
+
+
+1. Lo primero al realizar un software es hacer el diagrama de Bases de datos
+-Analiss del problema para poder identificar las entidades
+-Que clases se van a relacionar con cuales clases
+-Identificar el equema de como se almacenaran esos datos
+
+2. Realizar el Diagrama de clases
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+		CONFIGURACION PROYECTO
+------------------------------------------------------------------------------------------------------------------
+
+-Crear nuevo proyecto
+-Añadir la base de datos
+-Añadir el JDBC
+-Crear los paquetes
+
+
+-Crear las clases de las entidades:
+-Crear la clase conexion	->Util
+-Crear el MainController
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+		LA CLASE DE CONEXION
+------------------------------------------------------------------------------------------------------------------
+
+1. Crear el atributo
+	private static final String UBICACION_BD = "ProyectosConstruccion.db";
+
+2. Crear el metodo
+	public static Connection getConnection() throws SQLException {
+        String url = "jdbc:sqlite:" + UBICACION_BD;
+        return DriverManager.getConnection(url);
+    }
+
+
+*El atributo con la ubicacion de la base de datos
+*El metodo con la url del jdbc y la ubicacion
+	-Lo cuales se incluyen en DriverManager.getConnection(url)
+
+
+
+------------------------------------------------------------------------------------------------------------------
+		MODELO
+------------------------------------------------------------------------------------------------------------------
+VO
+------------------------------------------------------------------------------------------------------------------
+
+-Creamos cada una de las clases 
+*Clases = Entidades, basadas en la base de datos
+
+
+------------------------------------------------------------------------------------------------------------------
+DAO
+------------------------------------------------------------------------------------------------------------------
+
+-Se crean las clases que extienden de VO
+-Solo se crea el cosntructor
+-Se agregan las consultas SQL
+
+------------------------------------------------------------------------------------------------------------------
+		BASE DE DATOS
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

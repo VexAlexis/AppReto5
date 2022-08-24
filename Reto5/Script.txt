@@ -1,0 +1,192 @@
+			Funcionamiento de la Aplicacion
+
+Saludo
+	Buen dia, mi nombre es Alexis Chavarria
+	Hago parte del grupo de 14 
+
+Introduccion
+	En esta oportunidad mostrare el funcionamiento
+	-Aplicacion que desarrolle
+	-Visualizar las consultas solicitadas en el reto 5
+	-Por medio de 3 informes
+	-En la cual se le debe dar una interfaz grafica
+
+Caracteristicas
+	-Lenguaje JAVA
+	-Interfaz grafica de usuario
+	-Diseñada con al libreria SWING
+	-Desarrollada en VSC a codigo
+
+Home
+	Estrucutra de las ventanas JFrame
+	*AbsoluteLayout
+	-Permite organizarlos por coordenadas 
+	-Que Componentes implemente
+	-Funciones
+
+Informe
+	-Que Componentes implemente
+	-Funciones	
+
+	
+	CODIGO
+
+-Trabaje con el patron arquitectural MVC
+	El cual separa las entidades del problema en:
+	-Modelo	: Encargado de gestionar las consultas con la BD
+	-Vista	: Su representacion grafica
+	-Controlador: La logica del negocio 	
+	
+
+-Implemente el patron de diseño DAO
+	Cada entidad tiene su clase y sus respectivas consultas
+
+*Clase conexion
+*Main Controller
+*InformesController
+*Model 
+	
+	-DAO
+	-Entidades
+*Vistas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
